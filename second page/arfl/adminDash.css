@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+:root{
+    --red:#ff0000;
+    --white:#F9F6EE;
+    --light-color:#FEF8DD;
+    --box-shadow:.5rem .5rem 0 rgba(22,103,133,.2);
+    --text-shadow:.4rem .4rem 0 rgba(0,0,0,.2);
+    --border:.2rem solid var(--#f7f7f7);
+
+} 
+
+*{
+    font-family: 'Merriweather', serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform:capitalize ;
+    transition: all.2s ease-out;
+    text-decoration: none;
+    
+}
+
+html{
+    font-size: 63%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.background img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31cm;
+    width: 51cm;
+    position: absolute;
+    margin-top: -271px;
+    
+}   
+.header{
+    padding: 12px 50px 5px 0px;
+    position:fixed;
+    top: 0; left: 0;right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    /*box-shadow: 1rem 0.5rem var(--red);*/
+    justify-content: space-between;
+   
+   }
+
+.header .logo{
+   width: 166px;
+   height: 160px;
+}
+.header .City{
+   font-family: 'Ultra', serif;
+   font-size: 0.8in;
+   color: #ff0000;
+   padding-inline: 55px;
+   text-decoration: none;
+   text-shadow: #000e40;
+}
+.header .navbar{
+   font-style: normal;
+   font-family: fangsong;;
+   
+}
+.header .navbar a:hover{
+   -webkit-text-stroke: 2px #68fa07;
+   color: transparent;
+}
+
+.header .navbar a{
+   font-size: 2.3rem;
+   color: #fc0404;
+   margin-left: 2rem;
+   font-family: fangsong;
+   text-decoration: none;
+   transition: 0.3ms;
+   font-weight: 700;
+}
+
+.services {
+    position: relative;
+    margin-top: -180px;
+}
+
+
+.services h1{
+    position: absolute;
+    padding-top: 2cm;
+    padding-left: 21cm;
+    font-size: 52px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    padding-right: 722px;
+}
+
+.services h1 span{
+    color: #68fa07;
+
+}
+
+.services .service-con{
+    padding-top: 268px;
+    margin-top: 313px;
+    padding-bottom: 63px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(23rem,1fr));
+    gap: 6rem;
+    padding-right: 59px;
+    padding-left: 72px;
+}
+
+.services .service-con .boxservice{
+    background:url(regipng.png);
+    border-radius: 6.5rem;
+    box-shadow: var(--box-shadow);
+    border: 8px solid var(--red);
+    padding: 4.5rem;
+    
+}
+
+.services .service-con .boxservice i{
+    color: #df0000;
+    font-size: 17rem;
+    text-align: center;
+    margin-left: 57px;
+    margin-top: 19px;
+    margin-bottom: 25px;
+
+}
+
+.services .service-con .boxservice h3{
+    color: var(--black);
+    font-size: 3rem;
+    padding-top: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
